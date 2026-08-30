@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.nav-link.active {
+  color: #ffc107 !important;
+  font-weight: 600;
+}
+
+/* Buttons */
+
+.btn {
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Cards */
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  transition: 0.4s;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Forms */
+
+.form-control,.form-select {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-control:focus,.form-select:focus {
+  box-shadow: none;
+  border-color: #ffc107;
+}
+
+/* Tables */
+
+.table {
+  background-color: white;
+}
+
+.table th {
+  white-space: nowrap;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+}
+
+/* Footer space */
+
+body {
+  min-height: 100vh;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.2rem;
+  }
+
+  .navbar-nav {
+    padding: 15px 0;
+  }
+
+  .nav-link {
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Max",
+      "type": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "gender": "Male",
+      "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16?w=800",
+      "description": "Max is a friendly, playful and loving dog who enjoys spending time with people.",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "name": "Bella",
+      "type": "Cat",
+      "breed": "Persian",
+      "age": 2,
+      "gender": "Female",
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800",
+      "description": "Bella is a calm and affectionate cat looking for a loving home.",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "name": "Rocky",
+      "type": "Dog",
+      "breed": "German Shepherd",
+      "age": 4,
+      "gender": "Male",
+      "image": "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=800",
+      "description": "Rocky is energetic, loyal and protective.",
+      "status": "Adopted"
+    },
+    {
+      "id": "4",
+      "name": "Luna",
+      "type": "Cat",
+      "breed": "Siamese",
+      "age": 1,
+      "gender": "Female",
+      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800",
+      "description": "Luna is playful, curious and very friendly.",
+      "status": "Available"
+    },
+    {
+      "id": "5",
+      "name": "Charlie",
+      "type": "Dog",
+      "breed": "Beagle",
+      "age": 2,
+      "gender": "Male",
+      "image": "https://images.unsplash.com/photo-1505628346881-b72b27e84530?w=800",
+      "description": "Charlie loves playing, walking and meeting new people.",
+      "status": "Available"
+    },
+    {
+      "id": "6",
+      "name": "Milo",
+      "type": "Cat",
+      "breed": "Maine Coon",
+      "age": 3,
+      "gender": "Male",
+      "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800",
+      "description": "Milo is gentle, fluffy and affectionate.",
+      "status": "Available"
+    }
+  ],
+  "adoptionRequests": [],
+  "favorites": []
+}
